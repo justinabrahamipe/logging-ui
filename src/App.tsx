@@ -1,11 +1,16 @@
-import './App.css'
+import { Header } from "./components/Header";
+import Home from "./routes/home/Home";
 
 function App() {
   return (
     <>
-    <h1>sdafasf</h1>
+      <main className="min-h-screen dark:bg-gray-700 ">
+        {" "}
+        <Header />
+        <Home/>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
