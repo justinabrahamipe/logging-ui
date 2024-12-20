@@ -4,11 +4,11 @@ import Home from "./routes/home/Home";
 function App() {
   return (
     <>
-      <main className="min-h-screen dark:bg-gray-700 ">
-        {" "}
-        <Header />
-        <Home/>
-      </main>
+    <Header/>
+   
+    <main className="flex min-h-screen items-center justify-center gap-2 dark:bg-gray-800">
+       <Home/>
+    </main>
     </>
   );
 }
